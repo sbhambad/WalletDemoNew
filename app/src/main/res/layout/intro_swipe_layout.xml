@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/introImage"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/intro1"/>
+
+    <TextView
+        android:id="@+id/introHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/sliderHeader"
+        android:textSize="20sp"
+        android:text="REWARD-O-LUTION IS HERE"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/introSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/sliderSubHeader"
+        android:textSize="14sp"
+        android:text="REWARD-O-LUTION IS HERE"
+        android:layout_marginTop="4dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zuneeue.walletdemonew.activities.Intro">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/slideOneIndicator"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle_selected" />
+        <ImageView
+            android:id="@+id/slideTwoIndicator"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/slideThreeIndicator"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/slideFourIndicator"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/borderColor"/>
+
+    <LinearLayout
+        android:id="@+id/skipView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/SkipTextColor"
+            android:text="@string/skip"/>
+        </LinearLayout>
+
+
+</LinearLayout>
