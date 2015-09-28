@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/classes-53995a46a4b664b4089af45b87447b137e3a50e0.jar" />
+    </item>
+    <item
+        jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-bd5cb104547af231880c1881cedc00cbadedee32.jar" />
+    </item>
+    <item
+        jar="/Users/anupamsarfare/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-d76f17cd8412cb44050efd5f13834e5c31b65eec.jar" />
+    </item>
+    <item
         jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -14,20 +35,6 @@
         revision="23.0.0"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/classes-d5811c6ecd6587bd13dc31efe34d5c785b56578d.jar" />
-    </item>
-    <item
-        jar="/Users/anupamsarfare/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-d76f17cd8412cb44050efd5f13834e5c31b65eec.jar" />
-    </item>
-    <item
-        jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-bd5cb104547af231880c1881cedc00cbadedee32.jar" />
     </item>
 
 </items>

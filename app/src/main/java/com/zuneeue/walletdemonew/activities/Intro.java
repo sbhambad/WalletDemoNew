@@ -80,7 +80,7 @@ public class Intro extends Activity {
         skipView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intro.this,Register.class);
+                Intent intent = new Intent(Intro.this,Home.class);
                 startActivity(intent);
             }
         });

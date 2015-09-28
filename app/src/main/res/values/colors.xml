@@ -5,4 +5,11 @@
     <item name="sliderSubHeader" type="color">#656565</item>
     <item name="borderColor" type="color">#E8E8E8</item>
     <item name="SkipTextColor" type="color">#505050</item>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="textColorPrimary">#303F9F</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#607D8B</color>
 </resources>
