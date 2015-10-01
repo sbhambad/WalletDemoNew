@@ -18,13 +18,18 @@
     <!-- navigation drawer item labels -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
-        <item>@string/nav_item_friends</item>
-        <item>@string/nav_item_notifications</item>
+        <item>@string/title_history</item>
+        <item>@string/title_faq</item>
+        <item>@string/title_tandc</item>
+        <item>@string/title_pp</item>
     </string-array>
 
     <string name="title_messages">Messages</string>
-    <string name="title_friends">Friends</string>
+    <string name="title_faq">FAQS</string>
     <string name="title_home">Home</string>
+    <string name="title_history">Transaction History</string>
+    <string name="title_tandc">Terms and Conditions</string>
+    <string name="title_pp">Privacy Policy</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

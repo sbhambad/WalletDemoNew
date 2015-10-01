@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
-        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/classes-53995a46a4b664b4089af45b87447b137e3a50e0.jar" />
-    </item>
-    <item
         jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -28,6 +21,13 @@
         revision="23.0.0"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/classes-d5ea17c22fd4cff486d9931830584b27badf5fed.jar" />
+    </item>
+    <item
+        jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/pre-dexed/debug/classes-d47a09077ecf3b69ccbfea34c5f2f091242fa65a.jar" />
     </item>
     <item
         jar="/Users/anupamsarfare/Documents/Android-Project/WalletDemoNew/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/classes.jar"
