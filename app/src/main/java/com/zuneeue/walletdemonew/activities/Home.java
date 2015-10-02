@@ -14,8 +14,9 @@ import android.widget.Toast;
 
 import com.zuneeue.walletdemonew.R;
 import com.zuneeue.walletdemonew.adapters.NavigationAdapter;
+import com.zuneeue.walletdemonew.fragments.FragmentTransactionHistory;
+import com.zuneeue.walletdemonew.fragments.HomeFragment;
 import com.zuneeue.walletdemonew.fragments.NavigationDrawerFragment;
-import com.zuneeue.walletdemonew.fragments.TransactionHistoryFragment;
 
 public class Home extends AppCompatActivity implements NavigationDrawerFragment.FragmentDrawerListener {
 
@@ -34,6 +35,8 @@ public class Home extends AppCompatActivity implements NavigationDrawerFragment.
         drawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer,(DrawerLayout)findViewById(R.id.drawer_layout),mToolbar);
         drawerFragment.setDrawerListener(this);
+        displayView(0);
+
 
     }
 
@@ -64,22 +67,41 @@ public class Home extends AppCompatActivity implements NavigationDrawerFragment.
     public void onDrawerItemSelected(View view, int position) {
 
         Toast.makeText(getApplicationContext(),"Clicked "+position,Toast.LENGTH_SHORT).show();
+        displayView(position);
+
+
+    }
+
+
+    private void displayView(int position) {
         Fragment fragment = null;
         String title = getString(R.string.app_name);
-
-        fragment = new TransactionHistoryFragment();
-        title = getString(R.string.title_home);
+        switch (position) {
+            case 0:
+                fragment = new HomeFragment();
+                title = getString(R.string.title_home);
+                break;
+            case 1:
+                fragment = new FragmentTransactionHistory();
+                title = getString(R.string.title_history);
+                break;
+            case 2:
+                fragment = new HomeFragment();
+                title = getString(R.string.title_home);
+                break;
+            default:
+                break;
+        }
 
         if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.container_body, fragment);
             fragmentTransaction.commit();
+
             // set the toolbar title
             getSupportActionBar().setTitle(title);
         }
-
-
     }
 
 
